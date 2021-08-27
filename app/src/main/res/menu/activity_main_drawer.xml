@@ -25,7 +25,7 @@
         <item android:title="Nhập liệu">
             <menu>
                 <item
-                    android:id="@+id/nav_info"
+                    android:id="@+id/nav_employee"
                     android:icon="@drawable/ic_menu_camera"
                     android:title="Thông tin" />
                 <item

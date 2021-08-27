@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout_vertical"
+    android:background="@color/Yellow">
+
+    <TextView
+        style="@style/TextView_Content_Left"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/tvTitleExListView"
+        android:textColor="@color/white"
+        android:text="Thông tin mở rộng" />
+</LinearLayout>

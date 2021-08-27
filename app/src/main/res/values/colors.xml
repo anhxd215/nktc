@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="Black">#4a4e4d</color>
+    <color name="Cyan1">#0e9aa7</color>
+    <color name="Cyan2">#3da4ab</color>
+    <color name="Yellow">#FFBB33</color>
+    <color name="Orange">#fe8a71</color>
+    <!--#FFBB33  -> Màu vàng sáng hơn đẹp, có thể thay thế cho màu trên-->
+
+    <!-- Chuỗi màu thử áp dụng cho toàn app-->
+    <!--   #4a4e4d • #0e9aa7 • #3da4ab • #f6cd61 • #fe8a71 -->
 </resources>

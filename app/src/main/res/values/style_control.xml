@@ -1,7 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-// Style cho các Control được để vào trong này
+    // Style cho các Control được để vào trong này
+
+    <style name="TextView_Content_Left">
+        <item name="android:textSize">@dimen/textsize_content</item>
+        <item name="android:color">@color/Black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+
+    </style>
+
+    <style name="TextView_Title_Left">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">@dimen/textsize_title</item>
+        <item name="android:color">@color/Black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
 
 
+    <style name="EditText_Full">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">@dimen/textsize_content</item>
+        <item name="android:backgroundTint">@color/Cyan1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">60dp</item>
+        <item name="android:layout_marginRight">60dp</item>
+        <item name="android:titleMarginTop">8dp</item>
+        <item name="android:titleMarginBottom">8dp</item>
+    </style>
+
+    <style name="ImageView_150">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_margin">@dimen/margin_all</item>
+        <item name="android:background">@color/Yellow</item>
+    </style>
+
+
+    <style name="LinearLayout_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+
+    <style name="LinearLayout_Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Spinner_style">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:dropDownWidth">500dp</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:popupBackground">@android:color/holo_orange_light</item>
+        <item name="android:dropDownHeight">70dp</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:dropDownSelector">@android:color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_content</item>
+
+    </style>
+
+
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="colorButtonNormal">@color/Orange</item>
+        <item name="android:textColor">@color/Cyan1</item>
+        <item name="android:textSize">@dimen/textsize_content</item>
+        <item name="android:color">@color/Yellow</item>
+    </style>
 
 </resources>

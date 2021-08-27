@@ -7,8 +7,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-import com.ptaconstructions.nktc.Functions;
-
 public class Database extends SQLiteOpenHelper {
     private static final String DB_NAME = "BOW_DATA";
     private static final int DB_VERSION = 1;
@@ -21,25 +19,19 @@ public class Database extends SQLiteOpenHelper {
         }
         return instance;
     }
-
-
     private Database(@Nullable Context context) {
         super(context, DB_NAME, null, DB_VERSION);
 
     }
-
-
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
 //Bảng Employee
-        ExecSQL(InfoModel.SQL_CREATE_INFO);
+        ExecSQL(EmployeeModel.SQL_CREATE_INFO);
     }
-
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
 
     }
-
 
     public static void ExecSQL(String sql) {
 

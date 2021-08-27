@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmployeeActivity">
+
+    <TextView
+        style="@style/TextView_Content_Left"
+        android:text="Cập nhập thông tin của bạn để sử dụng phần mềm :" />
+
+    <LinearLayout style="@style/LinearLayout_vertical">
+
+        <EditText
+            android:id="@+id/etName"
+            style="@style/EditText_Full"
+            android:hint="Họ và tên" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/EditText_Full"
+            android:hint="Email" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayout_Horizontal">
+
+        <ImageView
+            style="@style/ImageView_150"
+            android:id="@+id/imgAvatar"
+            android:background="@color/Yellow" />
+
+        <LinearLayout style="@style/LinearLayout_vertical">
+
+            <EditText
+                style="@style/EditText_Full"
+                android:hint="Số điện thoại:" />
+
+            <TextView
+                style="@style/TextView_Content_Left"
+                android:text="Chức vụ :" />
+
+            <Spinner
+                style="@style/Spinner_style"
+                android:id="@+id/spinner" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--Hết phần thông tin nhanh, chuyển sang phần thông tin mở rộng -->
+    <LinearLayout style="@style/LinearLayout_vertical">
+
+        <ExpandableListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/exList" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayout_Horizontal"
+        android:gravity="center">
+
+        <Button
+            style="@style/Button"
+            android:text="Hủy bỏ" />
+
+        <Button
+            style="@style/Button"
+            android:text="Cập nhập" />
+    </LinearLayout>
+
+</LinearLayout>

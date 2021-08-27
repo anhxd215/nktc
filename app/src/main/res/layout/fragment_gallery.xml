@@ -8,6 +8,7 @@
     tools:context=".ui.gallery.GalleryFragment" >
 
     <TextView
+        style="@style/TextView_Content_Left"
         android:id="@+id/text_gallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
