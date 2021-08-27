@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_plan"
         android:name="com.ptaconstructions.nktc.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_plan"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_other_report"
         android:name="com.ptaconstructions.nktc.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_other_report"
         tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/nav_info"
+        android:name="com.ptaconstructions.nktc.InfoActivity"
+        android:label="Cái gì đó chẳng hạn"
+        tools:layout="@layout/activity_info" />
+
 </navigation>

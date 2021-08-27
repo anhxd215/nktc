@@ -4,17 +4,69 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+        <item android:title="Chức năng">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="@string/menu_home" />
+                <item
+                    android:id="@+id/nav_plan"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_plan" />
+                <item
+                    android:id="@+id/nav_other_report"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="@string/menu_other_report" />
+
+            </menu>
+        </item>
+
+        <item android:title="Nhập liệu">
+            <menu>
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Thông tin" />
+                <item
+                    android:id="@+id/nav_project"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Dự án" />
+                <item
+                    android:id="@+id/nav_foreman"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Tổ đội" />
+                <item
+                    android:id="@+id/nav_material_machines"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Vật liệu/máy móc " />
+                <item
+                    android:id="@+id/nav_dictionary"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Thư viện từ" />
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Cài đặt" />
+            </menu>
+        </item>
+
+        <item android:title="Folower">
+            <menu>
+                <item
+                    android:id="@+id/nav_facebook"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Facebook" />
+                <item
+                    android:id="@+id/nav_youtube"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Youtube" />
+
+            </menu>
+        </item>
+
+
+
+
     </group>
 </menu>
