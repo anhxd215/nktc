@@ -24,7 +24,7 @@
         tools:layout="@layout/fragment_slideshow" />
     <activity
         android:id="@+id/nav_employee"
-        android:name="com.ptaconstructions.nktc.EmployeeActivity"
+        android:name="com.ptaconstructions.nktc.employeeActivity"
         android:label="Thông tin cá nhân"
         tools:layout="@layout/activity_employee" />
 

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nktc">
         <activity
-            android:name=".EmployeeActivity"
+            android:name=".employeeActivity"
             android:exported="true"
             android:parentActivityName=".MainActivity"/>
 

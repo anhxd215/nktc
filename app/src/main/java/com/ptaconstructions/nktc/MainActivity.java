@@ -1,18 +1,13 @@
 package com.ptaconstructions.nktc;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.net.wifi.ScanResult;
+import android.content.Context;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
-import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
-import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -21,18 +16,21 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.ptaconstructions.nktc.Data.Database;
+import com.ptaconstructions.nktc.Data.LoadData;
 import com.ptaconstructions.nktc.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
+    public static Context _context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-      // Khởi tạo Database
-        Database.getInstance(this);
+        _context = this;
+        Database.getInstance(MainActivity.this); // Khởi tạo database
 
+        LoadData.LoadData();
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
@@ -68,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
-
     }
 
     @Override

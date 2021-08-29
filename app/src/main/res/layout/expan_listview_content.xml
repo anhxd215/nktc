@@ -6,11 +6,12 @@
 
         <EditText
             style="@style/EditText_Full"
+            android:id="@+id/etBirthDay"
             android:hint="Ngày sinh :" />
 
         <EditText
             style="@style/EditText_Full"
-
+            android:id="@+id/etIDCard"
             android:hint="Số CMNN" />
 
         <LinearLayout
@@ -19,11 +20,13 @@
 
             <EditText
                 style="@style/EditText_Full"
+                android:id="@+id/etDateCard"
                 android:layout_width="match_parent"
                 android:layout_weight="3"
                 android:hint="Ngày cấp" />
 
             <EditText
+                android:id="@+id/etLocationCard"
                 style="@style/EditText_Full"
                 android:layout_weight="2"
                 android:hint="Nơi cấp" />
@@ -32,10 +35,12 @@
 
         <EditText
             style="@style/EditText_Full"
+            android:id="@+id/etAddress"
             android:hint="Địa chỉ" />
 
         <EditText
             style="@style/EditText_Full"
+            android:id="@+id/etNote"
             android:hint="Note" />
     </LinearLayout>
 

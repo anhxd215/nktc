@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".EmployeeActivity">
+    tools:context=".employeeActivity">
 
     <TextView
         style="@style/TextView_Content_Left"
@@ -27,13 +27,14 @@
     <LinearLayout style="@style/LinearLayout_Horizontal">
 
         <ImageView
-            style="@style/ImageView_150"
             android:id="@+id/imgAvatar"
+            style="@style/ImageView_150"
             android:background="@color/Yellow" />
 
         <LinearLayout style="@style/LinearLayout_vertical">
 
             <EditText
+                android:id="@+id/etPhone"
                 style="@style/EditText_Full"
                 android:hint="Số điện thoại:" />
 
@@ -42,8 +43,8 @@
                 android:text="Chức vụ :" />
 
             <Spinner
-                style="@style/Spinner_style"
-                android:id="@+id/spinner" />
+                android:id="@+id/spPosition"
+                style="@style/Spinner_style" />
         </LinearLayout>
 
 
@@ -52,9 +53,9 @@
     <LinearLayout style="@style/LinearLayout_vertical">
 
         <ExpandableListView
+            android:id="@+id/exList"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/exList" />
+            android:layout_height="match_parent" />
     </LinearLayout>
 
     <LinearLayout
@@ -62,10 +63,12 @@
         android:gravity="center">
 
         <Button
+            android:id="@+id/btnCancel"
             style="@style/Button"
             android:text="Hủy bỏ" />
 
         <Button
+            android:id="@+id/btnUpdate"
             style="@style/Button"
             android:text="Cập nhập" />
     </LinearLayout>
