@@ -35,12 +35,11 @@ public class employeeActivity extends AppCompatActivity {
         etAddress = findViewById(R.id.etAddress);
         etNote = findViewById(R.id.etNote);
         spPosition = findViewById(R.id.spPosition);
-        btnCancel = findViewById(R.id.btnCancel);
-        btnUpdate = findViewById(R.id.btnUpdate);
+        //btnCancel = findViewById(R.id.btnCancel);
+        //  btnUpdate = findViewById(R.id.btnUpdate);
         setListExpan();
         // Control
         LoadEmployee();
-        UpdateEmployee();
 
     }
 
@@ -51,15 +50,7 @@ public class employeeActivity extends AppCompatActivity {
         ex.setAdapter(exAdapter);
     }
 
-    private void UpdateEmployee() {
-        btnUpdate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-
-            }
-        });
-    }
 
     private void LoadEmployee() {
         Cursor cursor;
@@ -75,7 +66,8 @@ public class employeeActivity extends AppCompatActivity {
             etEmail.setText(cursor.getString(9));
             etPhone.setText(cursor.getString(10));
 //            etAddress.setText(cursor.getString(11));
-            etNote.setText(cursor.getString(12));
+            //         etNote.setText(cursor.getString(12));
+            //      Lưu ý, nếu muốn gán vào cho mấy thằng này thì nhập vào mảng, nộp vào adapter cho nó là ngon
         }
 
     }

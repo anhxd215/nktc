@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/LinearLayout_vertical">
+    style="@style/LinearLayout_vertical_no_setup">
 
-    <LinearLayout style="@style/LinearLayout_vertical">
+    <LinearLayout style="@style/LinearLayout_vertical_no_setup">
 
         <EditText
             style="@style/EditText_Full"
@@ -15,7 +15,7 @@
             android:hint="Số CMNN" />
 
         <LinearLayout
-            style="@style/LinearLayout_Horizontal"
+            style="@style/LinearLayout_horizontal_no_setup"
             android:weightSum="5">
 
             <EditText

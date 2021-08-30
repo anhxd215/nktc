@@ -3,7 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/nktc/app/src/main/res/layout/activity_employee.xml" value="0.22" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/boder_contro_2dp.xml" value="0.17135416666666667" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/boder_contro_4dp.xml" value="0.17135416666666667" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/boder_control_4dp.xml" value="0.240625" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/button_01.xml" value="0.240625" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/button_press_brown_border.xml" value="0.17135416666666667" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/edittext_brown_boder.xml" value="0.240625" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/edittext_brown_border.xml" value="0.17135416666666667" />
+        <entry key="..\:/nktc/app/control/src/main/res/layout/activity_control.xml" value="0.25" />
+        <entry key="..\:/nktc/app/control/src/main/res/layout/content_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/nktc/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.10277777777777777" />
+        <entry key="..\:/nktc/app/src/main/res/drawable/button_press_brown_border.xml" value="0.1638888888888889" />
+        <entry key="..\:/nktc/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17135416666666667" />
+        <entry key="..\:/nktc/app/src/main/res/drawable/side_nav_bar.xml" value="0.10277777777777777" />
+        <entry key="..\:/nktc/app/src/main/res/layout/activity_employee.xml" value="0.25" />
         <entry key="..\:/nktc/app/src/main/res/layout/activity_info.xml" value="0.22447916666666667" />
         <entry key="..\:/nktc/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/nktc/app/src/main/res/layout/app_bar_main.xml" value="0.17760416666666667" />
@@ -12,7 +25,7 @@
         <entry key="..\:/nktc/app/src/main/res/layout/expan_listview_title.xml" value="0.17760416666666667" />
         <entry key="..\:/nktc/app/src/main/res/layout/fragment_blank.xml" value="0.22447916666666667" />
         <entry key="..\:/nktc/app/src/main/res/layout/fragment_gallery.xml" value="0.33" />
-        <entry key="..\:/nktc/app/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/nktc/app/src/main/res/layout/fragment_home.xml" value="0.22508591065292097" />
         <entry key="..\:/nktc/app/src/main/res/layout/fragment_slideshow.xml" value="0.22447916666666667" />
         <entry key="..\:/nktc/app/src/main/res/layout/nav_header_main.xml" value="0.22447916666666667" />
         <entry key="..\:/nktc/app/src/main/res/menu/main.xml" value="0.17760416666666667" />

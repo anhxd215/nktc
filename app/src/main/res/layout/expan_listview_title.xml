@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/LinearLayout_vertical"
+    style="@style/LinearLayout_vertical_no_setup"
     android:background="@color/Yellow">
 
     <TextView
-        style="@style/TextView_Content_Left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginLeft="50dp"
         android:id="@+id/tvTitleExListView"
         android:textColor="@color/white"

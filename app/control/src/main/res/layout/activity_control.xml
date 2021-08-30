@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayout_horizontal_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBB33"
+
+    tools:context=".ControlActivity">
+
+    <LinearLayout
+        style="@style/LinearLayout_vertical_front"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/edTextTest01"
+            style="@style/EditText_Full"
+            android:drawableStart="@drawable/person_24x24dp"
+            android:hint="Test thử EditText" />
+
+        <Button
+            style="@style/Button_brown_border"
+            android:text="BUTTON 1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

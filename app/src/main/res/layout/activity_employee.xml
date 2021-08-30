@@ -2,75 +2,63 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+    style="@style/LinearLayout_vertical_back"
     tools:context=".employeeActivity">
 
-    <TextView
-        style="@style/TextView_Content_Left"
-        android:text="Cập nhập thông tin của bạn để sử dụng phần mềm :" />
+    <LinearLayout style="@style/LinearLayout_vertical_front">
 
-    <LinearLayout style="@style/LinearLayout_vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhập thông tin của bạn để sử dụng cho các văn bản :" />
 
-        <EditText
-            android:id="@+id/etName"
-            style="@style/EditText_Full"
-            android:hint="Họ và tên" />
-
-        <EditText
-            android:id="@+id/etEmail"
-            style="@style/EditText_Full"
-            android:hint="Email" />
-    </LinearLayout>
-
-    <LinearLayout style="@style/LinearLayout_Horizontal">
-
-        <ImageView
-            android:id="@+id/imgAvatar"
-            style="@style/ImageView_150"
-            android:background="@color/Yellow" />
-
-        <LinearLayout style="@style/LinearLayout_vertical">
+        <LinearLayout style="@style/LinearLayout_vertical_no_setup">
 
             <EditText
-                android:id="@+id/etPhone"
+                android:id="@+id/etName"
                 style="@style/EditText_Full"
-                android:hint="Số điện thoại:" />
+                android:hint="Họ và tên" />
 
-            <TextView
-                style="@style/TextView_Content_Left"
-                android:text="Chức vụ :" />
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/EditText_Full"
+                android:hint="Email" />
+    </LinearLayout>
 
-            <Spinner
-                android:id="@+id/spPosition"
-                style="@style/Spinner_style" />
+        <LinearLayout style="@style/LinearLayout_horizontal_no_setup">
+
+            <ImageView
+                android:id="@+id/imgAvatar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@color/Yellow" />
+
+            <LinearLayout style="@style/LinearLayout_vertical_no_setup">
+
+                <EditText
+                    android:id="@+id/etPhone"
+                    android:layout_marginLeft="10dp"
+                    style="@style/EditText_Full"
+                    android:hint="Số điện thoại:" />
+
+                <Spinner
+                    android:id="@+id/spPosition"
+                    android:layout_marginLeft="10dp"
+                    style="@style/EditText_Full" />
         </LinearLayout>
 
 
     </LinearLayout>
-    <!--Hết phần thông tin nhanh, chuyển sang phần thông tin mở rộng -->
-    <LinearLayout style="@style/LinearLayout_vertical">
+        <!--Hết phần thông tin nhanh, chuyển sang phần thông tin mở rộng -->
+        <LinearLayout style="@style/LinearLayout_vertical_no_setup">
 
-        <ExpandableListView
-            android:id="@+id/exList"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            <ExpandableListView
+                android:id="@+id/exList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
     </LinearLayout>
-
-    <LinearLayout
-        style="@style/LinearLayout_Horizontal"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/btnCancel"
-            style="@style/Button"
-            android:text="Hủy bỏ" />
-
-        <Button
-            android:id="@+id/btnUpdate"
-            style="@style/Button"
-            android:text="Cập nhập" />
-    </LinearLayout>
-
 </LinearLayout>
