@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Quy định chiều cao control, như edittex,spiner, .... để đồng bộ 1 kiểu chiều cao-->
+    <dimen name="bow_height_control">48dp</dimen>
+    <!--    Quy định kích thước chữ thông thường cho toàn bộ control, để đồng bộ cỡ chữ    -->
+    <dimen name="bow_textSize_content">14sp</dimen>
+    <!--    Kích thước chữ tiêu đề cho toàn phần mềm, cỡ lớn nhất-->
+    <dimen name="bow_textSize_title_big">18sp</dimen>
+
+    <!--    Quy định margin cho toàn bộ phần mềm-->
+    <dimen name="bow_margin">8dp</dimen>
+    <!--    Quy định thuộc tính drawablePadding cho toàn bộ app -->
+    <dimen name="bow_drawablePadding">8dp</dimen>
+    <!--Quy định thuộc tính padding cho control-->
+    <dimen name="bow_padding">8dp</dimen>
+
+
+    <!--Quy định thuộc tính bo góc cho tất cả các control để sửa cho dễ-->
+    <!--    Phần nhỏ bo cho control-->
+    <dimen name="bow_corners_radius_small">4dp</dimen>
+    <!--Phần bán kính lớn này dùng bo cho layout, cho những phần lớn-->
+    <dimen name="bow_corners_radius_big">10dp</dimen>
+
+    <!--    Phần viền cho control-->
+    <dimen name="bow_stroke_with_small">1dp</dimen>
+
+
+</resources>

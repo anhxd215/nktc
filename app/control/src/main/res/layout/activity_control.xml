@@ -15,8 +15,8 @@
 
         <EditText
             android:id="@+id/edTextTest01"
-            style="@style/EditText_Full"
-            android:drawableStart="@drawable/person_24x24dp"
+            style="@style/bow_edittext_rectangle_border_brown_yellow"
+            android:drawableStart="@drawable/bow_ic_person_24x24dp"
             android:hint="Test thử EditText" />
 
         <Button

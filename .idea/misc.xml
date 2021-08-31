@@ -6,12 +6,30 @@
         <entry key="..\:/nktc/app/control/src/main/res/drawable/boder_contro_2dp.xml" value="0.17135416666666667" />
         <entry key="..\:/nktc/app/control/src/main/res/drawable/boder_contro_4dp.xml" value="0.17135416666666667" />
         <entry key="..\:/nktc/app/control/src/main/res/drawable/boder_control_4dp.xml" value="0.240625" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/border_control_4dp_background.xml" value="0.1" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/bow_email_24x24.xml" value="0.10092592592592593" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/bow_ic_card_24x24.xml" value="0.13333333333333333" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/bow_ic_date_24x24.xml" value="0.13333333333333333" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/bow_ic_email_24x24.xml" value="0.1" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/bow_ic_home_24x24.xml" value="0.13333333333333333" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/bow_ic_location_24x24.xml" value="0.13333333333333333" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/bow_ic_note_24x24.xml" value="0.13333333333333333" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/bow_ic_person_24x24dp.xml" value="0.1" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/bow_ic_phone_24x24.xml" value="0.1" />
         <entry key="..\:/nktc/app/control/src/main/res/drawable/button_01.xml" value="0.240625" />
         <entry key="..\:/nktc/app/control/src/main/res/drawable/button_press_brown_border.xml" value="0.17135416666666667" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/button_press_brown_border_background.xml" value="0.1" />
         <entry key="..\:/nktc/app/control/src/main/res/drawable/edittext_brown_boder.xml" value="0.240625" />
         <entry key="..\:/nktc/app/control/src/main/res/drawable/edittext_brown_border.xml" value="0.17135416666666667" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/edittext_brown_border_background.xml" value="0.1" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.13333333333333333" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/image_background.xml" value="0.1" />
+        <entry key="..\:/nktc/app/control/src/main/res/drawable/person_24x24dp.xml" value="0.10092592592592593" />
+        <entry key="..\:/nktc/app/control/src/main/res/layout-w1240dp/expan_listview_content.xml" value="0.1" />
+        <entry key="..\:/nktc/app/control/src/main/res/layout-w1240dp/expan_listview_title.xml" value="0.1" />
         <entry key="..\:/nktc/app/control/src/main/res/layout/activity_control.xml" value="0.25" />
         <entry key="..\:/nktc/app/control/src/main/res/layout/content_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/nktc/app/control/src/main/res/layout/employee_recycleview_item_layout.xml" value="0.22" />
         <entry key="..\:/nktc/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.10277777777777777" />
         <entry key="..\:/nktc/app/src/main/res/drawable/button_press_brown_border.xml" value="0.1638888888888889" />
         <entry key="..\:/nktc/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17135416666666667" />

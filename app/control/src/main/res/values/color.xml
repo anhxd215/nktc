@@ -11,4 +11,7 @@
     <color name="bow_icons">#212121</color>
     <color name="bow_divider">#BDBDBD</color>
     <color name="bow_white">#ffffff</color>
+
+    <!-- Màu này là màu tất cả các icon bằng vector trong phần mềm, hãy cẩn thận-->
+    <color name="bow_color_image_control">#FFA000</color>
 </resources>

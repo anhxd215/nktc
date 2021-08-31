@@ -9,9 +9,9 @@
 
         <EditText
             android:id="@+id/textHome"
-            style="@style/EditText_Full"
+            style="@style/bow_edittext_rectangle_border_brown_yellow"
             android:layout_margin="20dp"
-            android:drawableStart="@drawable/person_24x24dp"
+            android:drawableStart="@drawable/bow_ic_person_24x24dp"
             android:hint="Test thử EditText"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +21,7 @@
             style="@style/Button_brown_border"
             android:layout_margin="0dp"
             android:text="Đéo cập nhập"
-            android:background="@drawable/button_press_brown_border" />
+            android:background="@drawable/button_press_brown_border_background" />
 
         <TextView
             android:layout_width="match_parent"

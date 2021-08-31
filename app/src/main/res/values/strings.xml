@@ -12,8 +12,6 @@
     <string name="menu_home">Nhật kí thi công</string>
     <string name="menu_plan">Kế hoạch thi công</string>
     <string name="menu_other_report">Văn bản - giấy tờ</string>
+<!-- TODO: Làm cái gì thì làm, ghi vào đây cho nhớ -->
 
-
-<!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout_vertical_no_setup"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <com.ramotion.foldingcell.FoldingCell xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/foldingCellOneLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.ramotion.foldingcell.FoldingCell>
+
+
+    <com.ramotion.foldingcell.FoldingCell xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/folding_cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/cell_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bow_white"
+            android:visibility="gone">
+
+            <LinearLayout
+                style="@style/LinearLayout_vertical_no_setup"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:padding="@dimen/bow_padding">
+
+                <LinearLayout
+                    style="@style/LinearLayout_horizontal_no_setup"
+                    android:background="@color/bow_primary"
+                    android:clipChildren="false"
+                    android:clipToPadding="false">
+
+                    <ImageView
+                        android:layout_width="@dimen/bow_height_control"
+                        android:layout_height="@dimen/bow_height_control"
+                        android:background="@color/bow_accent"
+                        android:src="@drawable/bow_ic_upicon_50x50" />
+
+                    <TextView
+                        style="@style/bow_textview_white_cap_20dp"
+                        android:layout_height="@dimen/bow_height_control"
+                        android:gravity="left|center"
+                        android:text="THÔNG TIN THÊM"
+                        android:textColor="@color/bow_white" />
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/etBirthDay"
+                    style="@style/bow_edittext_rectangle_border_brown_yellow"
+                    android:drawableStart="@drawable/bow_ic_date_24x24"
+                    android:hint="Ngày sinh" />
+
+                <EditText
+                    android:id="@+id/etIDCard"
+                    style="@style/bow_edittext_rectangle_border_brown_yellow"
+                    android:drawableStart="@drawable/bow_ic_card_24x24"
+                    android:hint="Số CMNN" />
+
+                <EditText
+                    android:id="@+id/etDateCard"
+                    style="@style/bow_edittext_rectangle_border_brown_yellow"
+                    android:drawableStart="@drawable/bow_ic_date_24x24"
+                    android:hint="Ngày cấp" />
+
+                <EditText
+                    android:id="@+id/etLocationCard"
+                    style="@style/bow_edittext_rectangle_border_brown_yellow"
+                    android:drawableStart="@drawable/bow_ic_location_24x24"
+                    android:hint="Nơi cấp" />
+
+                <EditText
+                    android:id="@+id/etAddress"
+                    style="@style/bow_edittext_rectangle_border_brown_yellow"
+                    android:drawableStart="@drawable/bow_ic_home_24x24"
+                    android:hint="Địa chỉ liên hệ " />
+
+                <EditText
+                    android:id="@+id/etNote"
+                    style="@style/bow_edittext_rectangle_border_brown_yellow"
+                    android:drawableStart="@drawable/bow_ic_note_24x24"
+                    android:hint="Thông tin thêm" />
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/cell_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                style="@style/LinearLayout_horizontal_no_setup"
+                android:background="@color/bow_primary"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:layout_width="@dimen/bow_height_control"
+                    android:layout_height="@dimen/bow_height_control"
+                    android:background="@color/bow_accent"
+                    android:src="@drawable/bow_ic_downicon_50x50" />
+
+                <TextView
+                    android:id="@+id/tvTitleEmployee"
+                    style="@style/bow_textview_white_cap_20dp"
+                    android:layout_height="@dimen/bow_height_control"
+                    android:gravity="left|center"
+                    android:text="THÔNG TIN THÊM"
+                    android:textColor="@color/bow_white" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </com.ramotion.foldingcell.FoldingCell>
+</LinearLayout>

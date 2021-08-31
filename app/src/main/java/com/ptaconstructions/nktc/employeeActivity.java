@@ -1,25 +1,27 @@
 package com.ptaconstructions.nktc;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ExpandableListView;
 import android.widget.Spinner;
 
-import com.ptaconstructions.nktc.Adapter.ExpanTextViewAdapter;
-import com.ptaconstructions.nktc.Data.Database;
-import com.ptaconstructions.nktc.Data.employeeModel;
+import com.ptaconstructions.control.RCVEmployeeAdapter;
+import com.ptaconstructions.control.itemEmployeeAdapter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class employeeActivity extends AppCompatActivity {
     ExpandableListView ex;
     EditText etName, etEmail, etPhone, etbirthDay, etIDCard, etDateCard, etLocationCard, etAddress, etNote;
     Spinner spPosition;
     Button btnCancel, btnUpdate;
+    RecyclerView revEmployeePlus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,48 +30,23 @@ public class employeeActivity extends AppCompatActivity {
         etName = findViewById(R.id.etName);
         etEmail = findViewById(R.id.etEmail);
         etPhone = findViewById(R.id.etPhone);
-        etbirthDay = findViewById(R.id.etBirthDay);
-        etIDCard = findViewById(R.id.etIDCard);
-        etDateCard = findViewById(R.id.etDateCard);
-        etLocationCard = findViewById(R.id.etLocationCard);
-        etAddress = findViewById(R.id.etAddress);
-        etNote = findViewById(R.id.etNote);
         spPosition = findViewById(R.id.spPosition);
-        //btnCancel = findViewById(R.id.btnCancel);
-        //  btnUpdate = findViewById(R.id.btnUpdate);
-        setListExpan();
-        // Control
-        LoadEmployee();
+        revEmployeePlus = findViewById(R.id.revEmployeePlus);
 
+        LinearLayoutManager lnm = new LinearLayoutManager(this);
+        revEmployeePlus.setLayoutManager(lnm);
+
+        RCVEmployeeAdapter rcv = new RCVEmployeeAdapter();
+        rcv.setData(getDataRCVE());
+        revEmployeePlus.setAdapter(rcv);
     }
 
-    // Khởi tạo phần thông tin bổ sung, hay dữ vậy ta
-    private void setListExpan() {
-        ex = findViewById(R.id.exList);
-        ExpanTextViewAdapter exAdapter = new ExpanTextViewAdapter(this);
-        ex.setAdapter(exAdapter);
-    }
-
-
-
-    private void LoadEmployee() {
-        Cursor cursor;
-        SQLiteDatabase db = Database.getInstance(this).getReadableDatabase();
-        cursor = db.rawQuery(employeeModel.SQL_SELECT_ALL_EMPLOYEE, null);
-        cursor.moveToFirst();
-        if (cursor.getCount() != 0) {
-            etName.setText(cursor.getString(3));
-//            etbirthDay.setText(cursor.getString(5));
-//            etIDCard.setText(cursor.getString(6));
-//            etDateCard.setText(cursor.getString(7));
-//            etLocationCard.setText(cursor.getString(8));
-            etEmail.setText(cursor.getString(9));
-            etPhone.setText(cursor.getString(10));
-//            etAddress.setText(cursor.getString(11));
-            //         etNote.setText(cursor.getString(12));
-            //      Lưu ý, nếu muốn gán vào cho mấy thằng này thì nhập vào mảng, nộp vào adapter cho nó là ngon
-        }
-
+    private List<itemEmployeeAdapter> getDataRCVE() {
+        List<itemEmployeeAdapter> list = new ArrayList<>();
+        list.add(new itemEmployeeAdapter("THÔNG TIN THÊM", "nGÀY SINH", "cmnn",
+                "NGÀY CẤP", "Nơi cấp",
+                "Dịa chỉ", "Ghi chú"));
+        return list;
     }
 
 

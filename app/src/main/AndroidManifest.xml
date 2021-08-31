@@ -12,7 +12,8 @@
         <activity
             android:name=".employeeActivity"
             android:exported="true"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Nktc" />
 
         <activity
             android:name=".MainActivity"

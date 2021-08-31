@@ -20,7 +20,7 @@
     <style name="LinearLayout_vertical_front">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/border_control_4dp</item>
+        <item name="android:background">@drawable/border_control_4dp_background</item>
         <item name="android:orientation">vertical</item>
         <item name="android:layout_margin">10dp</item>
         <item name="android:padding">10dp</item>
@@ -30,7 +30,7 @@
     <style name="LinearLayout_horizontal_front">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/border_control_4dp</item>
+        <item name="android:background">@drawable/border_control_4dp_background</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_margin">10dp</item>
         <item name="android:padding">10dp</item>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="bow_textview_white_cap_20dp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/bow_textSize_title_big</item>
+        <item name="android:padding">@dimen/bow_padding</item>
+    </style>
+
+
+</resources>
